@@ -7,11 +7,12 @@ package com.wyc.dream.designpatternanalysis.factory;
  */
 public class FoodFactory {
     IFood doFood(String type){
-        String noodleFoodType = "noodle";
-        String riceFoodType = "rice";
-        if(noodleFoodType.equals(type)){
+        /**
+         * 这个地方如果业务需要新增新的食物产品，则需要改这个代码，不太符合开闭原则
+         */
+        if("noodle".equals(type)){
             return new NoodleFoodImpl();
-        }else if(riceFoodType.equals(type)){
+        }else if("rice".equals(type)){
             return new RiceFoodImpl();
         }
         return null;
