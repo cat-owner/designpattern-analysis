@@ -1,4 +1,4 @@
-package com.wyc.dream.designpatternanalysis.factory;
+package com.wyc.dream.designpatternanalysis.simplefactory;
 
 /**
  * @desc:食物
@@ -9,5 +9,5 @@ public interface IFood {
     /**
      * 处理相应的食物
      */
-    void doFood();
+    void eatFood();
 }

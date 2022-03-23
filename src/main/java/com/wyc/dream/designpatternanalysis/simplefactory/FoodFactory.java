@@ -1,4 +1,4 @@
-package com.wyc.dream.designpatternanalysis.factory;
+package com.wyc.dream.designpatternanalysis.simplefactory;
 
 /**
  * @author: wangyuancun

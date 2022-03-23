@@ -1,4 +1,4 @@
-package com.wyc.dream.designpatternanalysis.factory;
+package com.wyc.dream.designpatternanalysis.simplefactory;
 
 import java.lang.reflect.InvocationTargetException;
 
@@ -11,8 +11,8 @@ public class SimpleCustomerTest {
     public static void main(String[] args) {
         try {
             //面条
-            new SimpleFoodFactory().doFood(NoodleFoodImpl.class).doFood();
-            new SimpleFoodFactory().doFood(RiceFoodImpl.class).doFood();
+            new SimpleFoodFactory().doFood(NoodleFoodImpl.class).eatFood();
+            new SimpleFoodFactory().doFood(RiceFoodImpl.class).eatFood();
         } catch (NoSuchMethodException e) {
             e.printStackTrace();
         } catch (IllegalAccessException e) {

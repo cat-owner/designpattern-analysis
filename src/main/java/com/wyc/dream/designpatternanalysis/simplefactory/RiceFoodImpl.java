@@ -1,4 +1,4 @@
-package com.wyc.dream.designpatternanalysis.factory;
+package com.wyc.dream.designpatternanalysis.simplefactory;
 
 /**
  * @author: wangyuancun
@@ -7,7 +7,7 @@ package com.wyc.dream.designpatternanalysis.factory;
  */
 public class RiceFoodImpl implements IFood {
     @Override
-    public void doFood() {
+    public void eatFood() {
         System.out.println("松软的米饭");
     }
 }

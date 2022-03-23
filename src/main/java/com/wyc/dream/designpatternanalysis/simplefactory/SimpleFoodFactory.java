@@ -1,4 +1,4 @@
-package com.wyc.dream.designpatternanalysis.factory;
+package com.wyc.dream.designpatternanalysis.simplefactory;
 
 import java.lang.reflect.InvocationTargetException;
 

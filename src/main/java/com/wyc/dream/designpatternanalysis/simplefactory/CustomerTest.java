@@ -1,4 +1,4 @@
-package com.wyc.dream.designpatternanalysis.factory;
+package com.wyc.dream.designpatternanalysis.simplefactory;
 
 /**
  * @author: wangyuancun
@@ -9,9 +9,9 @@ public class CustomerTest {
     public static void main(String[] args) {
         FoodFactory foodFactory = new FoodFactory();
         IFood noodle = foodFactory.doFood("noodle");
-        noodle.doFood();
+        noodle.eatFood();
         IFood rice = foodFactory.doFood("rice");
-        rice.doFood();
+        rice.eatFood();
 
     }
 
